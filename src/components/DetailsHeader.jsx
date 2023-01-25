@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
 
 const DetailsHeader = ({artistId, artistData, songData}) => {
-  const artist = artistData?.artists[artistId]?.attributes
+
+  const artist = artistData?.attributes
 
   return (
     <div className='relative w-full flex flex-col'>
@@ -23,7 +24,7 @@ const DetailsHeader = ({artistId, artistData, songData}) => {
           <p className='font-bold sm:text-3xl text-xl text-white'>
             {
               artistId ? (
-                artist.name
+                artist?.name
               ) : (
                 songData?.title
               )
