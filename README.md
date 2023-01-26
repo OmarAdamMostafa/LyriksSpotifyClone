@@ -1,136 +1,156 @@
-# Project Lyrics
+# LyriksSpotifyClone
 
-Develop an elegant React.js Music Application. 
+![Current Version](https://img.shields.io/badge/version-v0.1-blue)
+![GitHub contributors](https://img.shields.io/github/contributors/madhur-taneja/README-Template)
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+Open and view the Project using the `.zip` file provided or at my [GitHub Repository]
 
-# Contributing
+The project is also hosted on [Official Site]
 
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+## Table of Contents
+- [Getting Started](#getting-started)
+	- [Tools Required](#tools-required)
+	- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Deployment](#deployment)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Getting Started
+
+* `master` contains aggregate code of all branches
+
+```
+LyriksSpotifyClone
+	├── README.md
+	├── package-lock.json
+	├── package.json
+	├── postcss.config.js
+	├── tailwind.config.js
+	├── vite.config.js
+	├── index.html
+	├── license
+	├── .gitignore
+	└── src
+		├── assets
+		│	└── ...
+		├── components
+		│	├── MusicPlayer
+		│	└── ...
+		├── pages
+		│	└── ...
+		├── redux
+		│	├── features
+   		│       │	└── playerSlice.js
+		│	├── services
+   		│       │	└── shazamCore.js
+		│	└── store.js
+		├── App.jsx
+		├── index.css
+		└── index.jsx
+```
+
+### Tools Required
+
+* Any web development IDE can be used, but I would recommend Visual Code.
+* React, React-DOM, React-Router-DOM, React-Icons, Tailwind CSS, Swiper and  Redux Toolkit.
+* Third Party Tools: Axios, RapidApi Cli, GEO.IPFY, Vite JS.
 
 
-## System Requirements
+### Installation
 
-To get started with development, you need to install few tools
+Note: All installations are done using npm.
 
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
+* Installing React-DOM
+  ```
+    npm i react-dom
+  ```
 
-   To check your version of git, run:
+* Installing React-Router-DOM
+  ```
+    npm i react-router-dom
+  ```
 
-   ```shell
-    git --version
-   ```
+* Installing React-Icons
+  ```
+    npm i react-icons
+  ```
 
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
+* Installing Tailwind CSS (Note: Installed through app creation using Vite JS)
+  ```
+	npm create vite@latest
+  ```
 
-   To check your version of node, run:
+* Installing Swiper
+  ```
+	npm i swiper
+  ```
 
-   ```shell
-    node --version
-   ```
+* Installing Redux Toolkit
+  ```
+	npm i @reduxjs/toolkit
+  ```
 
-3. npm
+* Installing Axios
+  ```
+	npm i react-axios
+  ```
+
+* Installing RapidApi Cli
+  ```
+	Installed within Visual Studio Code by browsing extensions and searching for RapidApi
+  ```
   
-   `npm` version 5.6.1 or higher. You will have it after you install node.
 
-   To check your version of npm, run:
+## Running the App
+There are two ways in running the app:
 
-   ```shell
-    npm --version
-   ```
-
-## Setup
-
-To set up a development environment, please follow these steps:
-
-1. Clone the repo
-
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
-
-2. Change directory to the project directory
-
-    ```shell
-    cd project1_team4_repository
-    ```
-
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
-
-    If you get an error, please check the console for more information.
-
-    If you don't get an error, you are ready to start development.
-
-4. Run the app
-   
-    ```shell
+* First Way (Recommended):
+  ```
     npm run dev
-    ```
+  ```
 
-    Project will be running in the browser.
+* Second Way:
+  ```
+    npm start
+  ```
 
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment
 
-## Issues
+The app is deployed on **Netlify**.
 
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
+### Steps in Deploying App
 
-Please try to create bug reports that are:
+1. Create Netlify account.
+2. Go to *Sites*.
+3. Click on *Add New Site*.
+4. Select *Import an existing project*.
+5. Use any of the Git Providers (Note: I'll continue with GitHub as it's the most common used)
+6. After connecting to your GitHub account, choose the existing repositiry you would like to deploy.
+7. Click on *Deploy Site*.
+8. Wait for site to build and deploy.
 
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
+## Authors
 
+#### Omar Adam Mostafa
+* [GitHub]
+* [LinkedIn]
 
-## Pull Request
+## License
 
-There are 2 main work flows when dealing with pull requests:
+`LyriksSpotifyClone` is open source software [licensed as MIT][license].
 
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
+## Acknowledgments
 
-Here we are going to focus on 2. Creating a Topical Branch:
+* This app was developed through a tutorial on YouTube called **Build and Deploy 3 Modern React API Applications in 8 Hours - Full Course | RapidAPI** by JavaScript Mastery.
 
+[//]: # (HyperLinks)
 
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
+[GitHub Repository]: https://github.com/OmarAdamMostafa/LyriksSpotifyClone
+[Official Site]: https://lyriks-app-omar.netlify.app/
 
-   ```bash
-    git pull origin main
-   ```
+[GitHub]: https://github.com/OmarAdamMostafa
+[LinkedIn]: https://www.linkedin.com/in/omar-adam-mostafa-a445a3259/
 
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
-
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
-
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
-
-3. To create a pull request, you must have changes committed to your new branch.
-
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
-
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
-
-6. Follow the template and fill in the proper information for the pull request.
-
-7. Click on the `Submit` button.
-
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
-
-#
+[license]: https://github.com/OmarAdamMostafa/LyriksSpotifyClone/blob/main/license
